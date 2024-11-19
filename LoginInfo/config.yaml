@@ -1,0 +1,26 @@
+cookie:
+  expiry_days: 30
+  key: some_random_key
+credentials:
+  usernames:
+    admin:
+      password: '7894'
+    new:
+      password: '1234'
+    userone:
+      name: User One
+      password: password1
+    usertwo:
+      name: User Two
+      password: password2
+    yash:
+      name: yashwanth
+      password: '1234'
+    yash1:
+      password: '1234'
+    yash123:
+      password: yash123
+    yashwanth:
+      name: yashwanth
+      password: '1234'
+preauthorized: {}
