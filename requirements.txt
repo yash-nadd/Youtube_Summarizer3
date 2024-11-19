@@ -1,7 +1,5 @@
 fpdf==1.7.2
 PyYAML==6.0.2
-PyYAML==5.4.1
-PyYAML==6.0.2
 SpeechRecognition==3.10.4
 streamlit==1.38.0
 streamlit_navigation_bar==3.3.0
