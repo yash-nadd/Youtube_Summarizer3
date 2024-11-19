@@ -5,6 +5,8 @@ import tempfile
 import shutil
 from transformers import pipeline
 from youtube_transcript_api import YouTubeTranscriptApi
+import sys
+sys.path.append("libs")
 
 def show():
     st.markdown(

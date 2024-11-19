@@ -3,7 +3,8 @@ import os
 
 # Add local bin directory to PATH
 os.environ["PATH"] += os.pathsep + "/home/appuser/.local/bin"
-
+import sys
+sys.path.append("libs")
 import subprocess
 try:
     import transformers

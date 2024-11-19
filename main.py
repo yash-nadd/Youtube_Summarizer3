@@ -1,4 +1,6 @@
 import streamlit as st
+import sys
+sys.path.append("libs")
 st.set_page_config(layout="wide")
 from streamlit_navigation_bar import st_navbar
 import home, tools, blog, about
