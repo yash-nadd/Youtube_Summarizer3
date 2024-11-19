@@ -4,6 +4,8 @@ from streamlit_navigation_bar import st_navbar
 import home, tools, blog, about
 import yaml
 import os
+from transformers import pipeline
+from youtube_transcript_api import YouTubeTranscriptApi
 
 
 
