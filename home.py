@@ -3,6 +3,7 @@ import subprocess
 import os
 import tempfile
 import shutil
+from transformers import pipeline
 
 def show():
     st.markdown(
