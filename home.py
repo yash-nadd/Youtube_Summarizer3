@@ -4,6 +4,7 @@ import os
 import tempfile
 import shutil
 from transformers import pipeline
+from youtube_transcript_api import YouTubeTranscriptApi
 
 def show():
     st.markdown(
